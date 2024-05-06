@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class TextFieldWidget extends StatefulWidget {
   final String title;
-  final Icon icon;
+  final Icon? icon;
   final TextEditingController controller;
   final TextInputType type;
   const TextFieldWidget(
